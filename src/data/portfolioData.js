@@ -12,7 +12,7 @@ export const portfolioData = {
     email: "cabalunajp7@gmail.com",
     location: "Brgy. Buhisan, Cebu City 6000",
     phone: "0960-6079-804",
-    avatar: "/avatar.jpg", // Your professionc:\Users\JP Cabaluna\Downloads\avatar.jpgal photo
+    avatar: `${process.env.PUBLIC_URL}/avatar.jpg`, // Your professional photo
   },
 
   // About Section
